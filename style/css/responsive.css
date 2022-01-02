@@ -1,0 +1,56 @@
+@media screen and (max-width: 1440px) {
+  header .main-logo {
+    width: 220px;
+  }
+  header .navbar-brand::after {
+    border-width: 250px 250px 0 0;
+  }
+  header nav a {
+    font-size: 18px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .main-logo {
+    width: 220px;
+  }
+  header .navbar-brand::after {
+    border-width: 200px 150px 0 0;
+  }
+  header nav a {
+    font-size: 16px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .main-logo {
+    width: 200px;
+  }
+  header .navbar-brand::after {
+    border-width: 200px 150px 0 0;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .main-logo {
+    width: 100px;
+  }
+  header .navbar-brand::after {
+    border-width: 100px 100px 0 0;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+}
