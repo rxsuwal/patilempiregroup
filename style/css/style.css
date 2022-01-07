@@ -47,6 +47,16 @@ body .shadow:hover {
           box-shadow: none !important;
 }
 
+body .hover-bg {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .hover-bg:hover {
+  cursor: pointer;
+  --bs-bg-opacity:0;
+}
+
 header {
   font-family: 'Merriweather', serif;
 }
