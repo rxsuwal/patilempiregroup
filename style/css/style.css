@@ -57,6 +57,10 @@ body .hover-bg:hover {
   --bs-bg-opacity:0;
 }
 
+body li.dropdown:hover ul {
+  display: block;
+}
+
 header {
   font-family: 'Merriweather', serif;
 }

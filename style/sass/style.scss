@@ -51,6 +51,13 @@ body{
             --bs-bg-opacity:0;
         }
     }
+
+    li.dropdown{
+        &:hover ul{
+            display: block;
+
+        }
+    }
 }
 
 header{
@@ -163,5 +170,8 @@ header{
         max-width: 30%;
     }
 }
+
+
+
 
 
