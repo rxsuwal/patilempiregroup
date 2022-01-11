@@ -37,6 +37,11 @@ body .object-cover {
      object-fit: cover;
 }
 
+body .object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 body .shadow {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -61,12 +66,17 @@ body li.dropdown:hover ul {
   display: block;
 }
 
+body iframe {
+  width: 100%;
+}
+
 header {
   font-family: 'Merriweather', serif;
 }
 
 header .main-logo {
   width: 350px;
+  height: 200px;
 }
 
 header .navbar-brand {
